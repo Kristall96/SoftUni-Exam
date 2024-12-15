@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="stylesheet" href="./static/css/style.css" />
+    <title>Discount Hive</title>
+  </head>
+
+  <body>
+    <h1>Discount Hive</h1>
+    <div id="hero">
+      <div id="wrapper">
+        <div class="form-wrapper">
+          <div id="form">
+            <form>
+              <div>
+                <label for="discount">Discount:</label>
+                <input id="discount" type="number" placeholder="Discount %" />
+                <label for="date">Expiration Date:</label>
+                <input id="date" type="date" />
+              </div>
+              <div>
+                <label for="store">Store Name:</label>
+                <input id="store" type="text" placeholder="Store Name" />
+              </div>
+              <div>
+                <label for="product">Product:</label>
+                <input id="product" type="text" placeholder="Product Name" />
+              </div>
+              <div>
+                <label for="code">Coupon Code:</label>
+                <input id="code" type="text" placeholder="Code" />
+              </div>
+            </form>
+            <button id="add-btn">Add Discount</button>
+          </div>
+          <div>
+            <div id="check-wrapper">
+              <p>Check &#10132;</p>
+              <ul id="check-list"></ul>
+            </div>
+          </div>
+          <div id="validate-wrapper">
+            <p>Validate &#10132;</p>
+            <ul id="validate-list"></ul>
+          </div>
+        </div>
+      </div>
+      <div id="discount-wrapper">
+        <p>Discount List</p>
+        <ul id="discount-list"></ul>
+        <button id="clear">Clear All</button>
+      </div>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
