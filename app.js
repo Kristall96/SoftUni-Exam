@@ -1,5 +1,5 @@
 let notificationTimeout; // Declare a global variable for the timeout
-
+// SoftUni Exam
 const showNotification = (message) => {
   const errorBox = document.getElementById("errorBox");
   if (errorBox) {
